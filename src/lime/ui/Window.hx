@@ -696,14 +696,6 @@ class Window
 		return __visible;
 	}
 
-    @:noCompletion private function set_vsync(value:Bool):Bool {
-    return value; // does nothing, but won’t crash
-    }
-
-    @:noCompletion private inline function get_vsync():Bool {
-    return false; // always reports off
-	}
-
 	@:noCompletion private inline function get_width():Int
 	{
 		return __width;
